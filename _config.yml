@@ -6,16 +6,17 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "http://github.com/startry"
+  weibo: "http://weibo.com/chenxingstartry"
+  #rss: "#"
+  zhihu: "http://www.zhihu.com/people/startry"
   #douban: "#"
-  #mail: "#"
+  mail: "mailto:chenxingfl#gmail.com"
   #facebook: "#"
   #google: "#"
-  #twitter: "#"
+  twitter: "https://twitter.com/xStartry"
   #linkedin: "#"
+  stackoverflow: "http://stackoverflow.com/users/5238614/startry"
 
 rss: /atom.xml
 
@@ -29,7 +30,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar: ""
+avatar: "https://avatars2.githubusercontent.com/u/3454027?v=3&s=460"
 #是否开启分享
 share: true
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
@@ -43,15 +44,10 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-  奥巴马的博客: http://localhost:4000/
-  卡卡的美丽传说: http://localhost:4000/
-  本泽马的博客: http://localhost:4000/
-  吉格斯的博客: http://localhost:4000/
-  习大大大不同: http://localhost:4000/
-  托蒂的博客: http://localhost:4000/
+  空荡荡的github: http://github.com/startry
 
 #是否开启“关于我”。
 #不开启——
 #aboutme: false
 #开启——
-aboutme: 我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…
+aboutme: 思考中...
