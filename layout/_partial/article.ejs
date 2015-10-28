@@ -55,7 +55,25 @@
     </div>
     <% } %>
   </div>
+
   <% if (!index){ %>
+    <!-- 添加打赏逻辑 -->
+    <div class='dashang' style='text-align:center; height:50px;'>如果您觉得文章有用, 打赏一个呗~~ ( ⊙ o ⊙ )/</div>
+    <div class='dashang_alipay' style='text-align:center;'>
+      <form action="https://shenghuo.alipay.com/send/payment/fill.htm"
+    method="POST" target="_blank" accept-charset="GBK">
+        <input name="optEmail" type="hidden" value="148140274@qq.com" />
+        <input name="payAmount" type="hidden" value="1" />
+        <input id="title" name="title" type="hidden" value="来自Startry博文的打赏" />
+        <input name="memo" type="hidden" value="打赏以资鼓励~~ O(∩_∩)O" />
+        <input name="pay" type="image" value="转账"
+      src="https://img.alipay.com/sys/personalprod/style/mc/btn-index.png" />
+      </form>
+    </div>
+    <div style='text-align:center; margin-top: 20px;'>
+      <img src='/img/wechat_pay.png' style='width: 160px; height:160px; margin-right: 15px;'>
+      <img src='/img/alipay_pay.png' style='width: 160px; height:160px; margin-left: 15px;  '>
+    </div>
     <%- partial('post/nav') %>
   <% } %>
 </article>
