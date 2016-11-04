@@ -24,8 +24,12 @@
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
       <% } else { %>
+
         <% var br = post.content.indexOf('<h') %>
         <% if(br < 0 || !index) { %>
+          <% if (post.toc !== false) {%>
+            <%- partial('post/toc') %>
+          <% } %>
           <%- post.content %>
         <% } else { %>
           <%- post.content.substring(0, br) %>

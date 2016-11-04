@@ -2,13 +2,12 @@
 menu:
   主页: /
   所有文章: /archives
-  # 随笔: /tags/随笔
 
 # SubNav
 subnav:
   github: "http://github.com/startry"
   weibo: "http://weibo.com/chenxingstartry"
-  #rss: "#"
+  rss: "http://blog.startry.com/atom.xml"
   zhihu: "http://www.zhihu.com/people/startry"
   #douban: "#"
   mail: "mailto:chenxingfl#gmail.com"
@@ -57,4 +56,6 @@ friends:
 #不开启——
 #aboutme: false
 #开启——
-aboutme: 思考中...
+aboutme: 混迹于各类互联网公司, 学习成长中, 边走边学~ 参与过某二手车公司创业, 也曾在某大型公司混的一花名"玄书"。现在重新学习成长中...
+
+toc: true
