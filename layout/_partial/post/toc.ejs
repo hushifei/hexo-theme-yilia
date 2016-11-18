@@ -1,4 +1,8 @@
 <div id="toc" class="toc-article">
-    <div class="toc-title">目录</div>
+    <div class="toc-title">
+    	<div style="float:left;">目录</div>
+    	<div id="close_toc" style="float:right; cursor: pointer;">x</div>
+    	<div style="clear:both;"></div>
+    </div>
     <%- toc(post.content, {list_number: false}) %>
 </div>
